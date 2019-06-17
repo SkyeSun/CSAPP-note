@@ -16,7 +16,7 @@ hello.c 程序以字节序列的方式存储于文件中, 每个字节都有一�
 gcc -o hello hello.c
 ```
 `编译系统`包括: 预处理器 -> 编译器 -> 汇编器 -> 链接器
-![](./img/compilation.png)
+<img src="./img/compilation.png" width="700">
 
 1. 预处理: 读取以 # 开头的命令, 将 `hello.c`(文本文件) 修改为 `hello.i`(文本文件)
 
@@ -40,7 +40,7 @@ gcc -o hello hello.c
 ```
 ### 1.4.1 系统的硬件组成
 
-<img src="./img/hardware.png" width="900">
+<img src="./img/hardware.png" width="700">
 
 1. `总线`: `贯穿整个系统的一组电子管道, 携带信息字节并负责在各个部件间传递.`通常传送定长的字节块(也就是`字(word)`), 字中的字节数(即`字长`)是一个基本的系统参数, 各个系统中不尽相同(4字节(32位)或8字节(64位)).
 
@@ -72,8 +72,8 @@ gcc -o hello hello.c
 系统花费了大量的时间把信息从一个地方挪到另一个地方, 这些复制就是开销, 减慢了程序"真正"的工作.
 
 通过让`高速缓存(cache)`里存放可能经常访问的数据, 大部分的内存操作都能在快速的高速缓存中完成.
-<img src="./img/cachebus.png" width="900">
+<img src="./img/cachebus.png" width="700">
 
 
 ## 1.6 存储设备形成层次结构
-<img src="./img/memhier.png" width="900">
+<img src="./img/memhier.png" width="700">
