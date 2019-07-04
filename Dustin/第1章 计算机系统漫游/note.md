@@ -8,7 +8,7 @@ hello.o：翻译成机器指令
 
 hello：调用了printf后变成可执行目标文件
 
-！[配图]（Dustin/第1章 计算机系统漫游/clipboard.png）
+![配图]（Dustin/第1章 计算机系统漫游/clipboard.png）
 
 
 #### 一些概念：
